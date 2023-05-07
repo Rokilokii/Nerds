@@ -63,13 +63,7 @@
                             <h3 class="filter-title">СТОИМОСТЬ</h3>
                             <div class="slider-container">
                                 <div class="shop-page-price-slider" id="slider-range">
-                                    <!-- <div class="price-slider">
-                                    <input type="range" min="0" max="30000" value="00">
-                                </div> -->
                                     <div class="price-slider-settings">
-                                        <!-- <span class="min-price-setting">0</span>
-                                    <div class="dash"></div>
-                                    <span class="max-price-setting">30000</span> -->
                                         <span>ОТ</span>
                                         <input type="text" min=0 max="30000" oninput="validity.valid||(value='0');" id="min_price" class="min-price-setting" />
                                         <span>ДО</span>
@@ -230,104 +224,6 @@
                                 </div>
                             </li>
                         </ul>
-
-                        <!-- <div class="model-items">
-                            <div id="id1" class="model-item-page1 active">
-                                <div class="model-item">
-                                    <div class="model-item-before">
-                                        <div class="model-item-before-circle"></div>
-                                        <div class="model-item-before-circle"></div>
-                                        <div class="model-item-before-circle"></div>
-                                    </div>
-                                    <img src="img/body/model/img-sedona.jpg" width="360" height="576">
-                                    <div class="model-popup">
-                                        <h4 class="model-popup-title">Sedona</h4>
-                                        <p class="model-popup-text">Информационный сайт <br> для туристов</p>
-                                        <button class="popup-bye-btn">9 900 РУБ</button>
-                                </div>
-                    </div>
-                    <div class="model-item">
-                        <div class="model-item-before">
-                            <div class="model-item-before-circle"></div>
-                            <div class="model-item-before-circle"></div>
-                            <div class="model-item-before-circle"></div>
-                        </div>
-                        <img src="img/body/model/img-pink.jpg" width="360" height="576">
-                        <div class="model-popup">
-                            <h4 class="model-popup-title">Pink App</h4>
-                            <p class="model-popup-text">Продуктовый лендинг приложения для iOS и Android</p>
-                            <button class="popup-bye-btn">9 900 РУБ</button>
-                        </div>
-                    </div>
-                </div>
-                <div id="id2" class="model-item-page2">
-                    <div class="model-item">
-                        <div class="model-item-before">
-                            <div class="model-item-before-circle"></div>
-                            <div class="model-item-before-circle"></div>
-                            <div class="model-item-before-circle"></div>
-                        </div>
-                        <img src="img/body/model/img-barbershop.jpg" width="360" height="576">
-                        <div class="model-popup">
-                            <h4 class="model-popup-title">Barbershop</h4>
-                            <p class="model-popup-text">Сайт салоны красоты. Для мужчин, да.</p>
-                            <button class="popup-bye-btn">9 900 РУБ</button>
-                        </div>
-                    </div>
-                    <div class="model-item">
-                        <div class="model-item-before">
-                            <div class="model-item-before-circle"></div>
-                            <div class="model-item-before-circle"></div>
-                            <div class="model-item-before-circle"></div>
-                        </div>
-                        <img src="img/body/model/img-mishka.jpg" width="360" height="576">
-                        <div class="model-popup">
-                            <h4 class="model-popup-title">MISHKA</h4>
-                            <p class="model-popup-text">Интернет-магазин вязаных игрушек</p>
-                            <button class="popup-bye-btn">9 900 РУБ</button>
-                        </div>
-                    </div>
-                </div>
-                <div id="id3" class="model-item-page3">
-                    <div class="model-item">
-                        <div class="model-item-before">
-                            <div class="model-item-before-circle"></div>
-                            <div class="model-item-before-circle"></div>
-                            <div class="model-item-before-circle"></div>
-                        </div>
-                        <img src="img/body/model/img-aplus.jpg" width="360" height="576">
-                        <div class="model-popup">
-                            <h4 class="model-popup-title">A Plus</h4>
-                            <p class="model-popup-text">Лендинг курсов повышения квалификации</p>
-                            <button class="popup-bye-btn">9 900 РУБ</button>
-                        </div>
-                    </div>
-                    <div class="model-item">
-                        <div class="model-item-before">
-                            <div class="model-item-before-circle"></div>
-                            <div class="model-item-before-circle"></div>
-                            <div class="model-item-before-circle"></div>
-                        </div>
-                        <img src="img/body/model/img-kvast.jpg" width="360" height="576">
-                        <div class="model-popup">
-                            <h4 class="model-popup-title">КВАСТ</h4>
-                            <p class="model-popup-text">Промо-сайт производителя крафтового кваса</p>
-                            <button class="popup-bye-btn">9 900 РУБ</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="pagination">
-                            <ul class="pagination-items">
-                                <li class="pagination-item active"><a href="#id1">1</a></li>
-                                <li class="pagination-item"><a href="#id2">2</a></li>
-                                <li class="pagination-item"><a href="#id3">3</a></li>
-                                <li class="pagination-next"><a href="#idnext">СЛЕДУЮЩАЯ</a></li>
-                            </ul>
-                        </div> -->
-                        <div id="data-container"></div>
-                        <div id="pagination-container"></div>
                     </div>
                 </div>
             </div>
@@ -337,43 +233,35 @@
     <footer>
         <div class="footer-location">
             <div id="map"></div>
-
-            <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
             <div class="container">
                 <div class="footer-contact-info">
                     <h3 class="footer-contact-tytle">NЁRDS DESIGN STUDIO</h3>
                     <p class="footer-contact-adress">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br><br>тел. +7 (812) 275-75-75</p>
                     <button class="write-us-btn">Напишите нам</button>
-                        </div>
+                </div>
 
-                        <!-- <img class="location-image" src="img/body/location/map-marker.png" width="231" height="190"> -->
-                    </div>
-                    <div class="writeus-popup-container">
-                        <div class="writeus-popup">
-                            <img src="img/body/popup/form-2.png" class="writeus-popup-exit" width="21" height="21">
-                            <div class="popup-contact-data">
-                                <div class="popup-login">
-                                    <label class="popup-login-text" for="login">Ваше имя:</label>
-                                    <input class="popup-input-form popup-login-form" type="text" name="login" id="login" placeholder="Имя Фамилия">
-                                </div>
-                                <div class="popup-email">
-                                    <label class="popup-email-text" for="email">Ваш e-mail:</label>
-                                    <input class="popup-input-form popup-email-form" type="text" name="email" id="email" placeholder="email@example.com">
-                                </div>
+                <div class="writeus-popup-container">
+                    <div class="writeus-popup">
+                        <img src="img/body/popup/form-2.png" class="writeus-popup-exit" width="21" height="21">
+                        <div class="popup-contact-data">
+                            <div class="popup-login">
+                                <label class="popup-login-text" for="login">Ваше имя:</label>
+                                <input class="popup-input-form popup-login-form" type="text" name="login" id="login" placeholder="Имя Фамилия">
                             </div>
-                            <div class="popup-message">
-                                <label class="popup-message-text" for="message">Текст письма:</label>
-                                <textarea class="popup-input-form popup-message-form" type="text" name="message" id="message" placeholder="В свободном формате"> </textarea>
+                            <div class="popup-email">
+                                <label class="popup-email-text" for="email">Ваш e-mail:</label>
+                                <input class="popup-input-form popup-email-form" type="text" name="email" id="email" placeholder="email@example.com">
                             </div>
-                            <div class="popup-bottom">
-                                <button class="popup-btn">
-                            ОТПРАВИТЬ
-                        </button>
-                            </div>
+                        </div>
+                        <div class="popup-message">
+                            <label class="popup-message-text" for="message">Текст письма:</label>
+                            <textarea class="popup-input-form popup-message-form" type="text" name="message" id="message" placeholder="В свободном формате"> </textarea>
+                        </div>
+                        <div class="popup-bottom">
+                            <button class="popup-btn">ОТПРАВИТЬ</button>
                         </div>
                     </div>
                 </div>
-
 
                 <div class="footer-social-and-info">
                     <div class="container">
@@ -388,16 +276,17 @@
                         </div>
                     </div>
                 </div>
-                </footer>
+            </div>
+        </div>
+    </footer>
 
-
-                <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-                <script src="js/jquery.min.js"></script>
-                <script src="js/jquery-ui.min.js"></script>
-                <script src="js/price_range_script.js"></script>
-                <script src="js/jquery.paginate.js"></script>
-                <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly" async></script>
-                <script src="js/script.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/price_range_script.js"></script>
+    <script src="js/jquery.paginate.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly" async></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
